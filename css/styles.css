@@ -1,0 +1,356 @@
+nav {
+
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ol li {
+	list-style: none;
+}
+
+nav ol {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+nav ol li .bado {
+	font-weight: 500;
+}
+
+nav ol li a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #EDEDED;
+	line-height: 10px;
+	transition: all .2s ease-in-out;
+}
+
+nav ol li .bado:hover {
+	color:#EDEDED;
+}
+
+nav ol li a:hover {
+	color: #2176FF;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+
+.gang {
+	height: 100vh;
+	width: 100vw;
+	background: url('../images/slider/slider.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+
+
+}
+h1{
+	color: #FFFFFF;
+	font-family: "Roboto", arial;
+	font-size: 82px;
+	font-weight: 700;
+	line-height: 100px;
+	margin-top: 120px;
+}
+h3{
+	color: #FFFFFF;
+	font-family: "Roboto", arial;
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-top: 15px;
+	letter-spacing: 2px;
+}
+button {
+	outline: 0;
+	border: 0;
+	background-color: #2176FF;
+	padding: 12px 30px;
+	border-radius: 50px;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	margin-top: 35px;
+	transition: all .3 ease-in-out;
+}
+.rolex1 {
+	background:url("../images/tech.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 200vh;
+	text-align: center;
+}
+
+.rolex1Img{
+	width: 300px;
+	height: 200px;
+}
+
+.rolex1 h1 {
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	font-family: 'Agency FB', arial;
+
+}
+.rolex1 h3 {
+	font-size: 18px;
+	font-weight: 200;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	font-family: 'Agency FB', arial;
+	margin-top: 0px;
+}
+.flip-card {
+ display: inline-block;
+ width: 300px;
+ height: 200px;
+ border: 1px solid #f1f1f1;
+ perspective: 1000px; 
+ align-content: center;
+}
+
+
+.flip-card-inner {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ transition: transform 0.3s;
+ transform-style: preserve-3d;
+}
+
+
+.flip-card:hover .flip-card-inner {
+ transform: rotateY(180deg);
+
+}
+
+
+.flip-card-front, .flip-card-back {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ -webkit-backface-visibility: hidden; 
+ backface-visibility: hidden;
+}
+
+
+.flip-card-front{
+ background-color:turquoise;
+ color: white;
+ text-align: center;
+ margin-top: 0;
+ margin-bottom:20px;
+ display: block;
+ font-size: 18px; 
+
+}
+.flip-card-back{
+ background-color:turquoise;
+ color: white;
+ transform: rotateY(180deg);
+}
+
+.fontawesome-icon {
+	font-size: 200px;
+	color: white;
+	visibility: visible;
+	animation-duration: 0.6s;
+	animation-fill-mode: both;
+	margin: 0;
+
+}
+.rolex2 {
+	background:url("../images/apps.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+.rolex2Img{
+	width: 300px;
+	height: 200px;
+	margin-top: 50px;
+}
+
+.rolex2 h1{
+	font-size: 49px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	font-family: 'Agency FB', arial;
+	font-weight: 500;
+	line-height: 57px;
+}
+.rolex2 h3{
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	font-family: 'Agency FB', arial;
+
+}
+.button2 {
+	outline: 0;
+	border: 0;
+	background-color: white;
+	padding: 15px 30px;
+	border-radius: 50px;
+	color: black;
+	font-family: "Roboto";
+	font-size: 14px;
+	font-weight: 0;
+	line-height: 17px;
+	letter-spacing: 3px;
+	cursor: pointer;
+	margin-top: 25px;
+	transition: all .3 ease-in-out;
+}
+.button3 {
+	outline: 0;
+	border: 0;
+	background-color: white;
+	padding: 15px 30px;
+	border-radius: 50px;
+	color: black;
+	font-family: "Roboto", arial;
+	font-size: 14px;
+	font-weight: 0;
+	line-height: 17px;
+	letter-spacing: 3px;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: all .3 ease-in-out;
+}
+.rolex3 {
+	background: url('../images/white.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+
+}
+.rolex3Img{
+	height: 200px;
+	width: 300px;
+}
+.rolex3 h1{
+	font-size: 49px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: rgb(37, 41, 51);
+	margin-top: 20px;
+	font-family: 'Agency FB', arial;
+	font-weight: 300;
+	line-height: 57px;
+
+}
+.rolex4 {
+	background: url('../images/contact.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+
+}
+.rolex4Img{
+	height: 200px;
+	width: 300px;
+	margin-top: 150px;
+}
+.rolex4 h1{
+	font-size: 70px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	font-family: 'Agency FB', arial;
+
+}
+.rolex4 h3{
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	font-family: 'Agency FB', arial;
+	font-weight: 400;
+
+}
+.button5{
+	outline: 0;
+	border: 0;
+	background-color: white;
+	padding: 15px 30px;
+	border-radius: 50px;
+	color: black;
+	font-family: "Roboto", arial;
+	font-size: 14px;
+	font-weight: 0;
+	line-height: 17px;
+	letter-spacing: 3px;
+	cursor: pointer;
+	margin-top: 30px;
+	transition: all .3 ease-in-out
+
+}
+#footer{
+	color: white;
+	padding: 37px;
+	background-color: rgb(37, 39, 37);
+	font-family: Agency FB;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+
+
+

@@ -1,0 +1,98 @@
+nav {
+
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ol li {
+	list-style: none;
+}
+
+nav ol {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+nav ol li .bado {
+	font-weight: 500;
+}
+
+nav ol li a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #EDEDED;
+	line-height: 10px;
+	transition: all .2s ease-in-out;
+}
+
+nav ol li .bado:hover {
+	color:#EDEDED;
+}
+
+nav ol li a:hover {
+	color: #2176FF;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+header {
+	position: fixed;
+}
+
+
+.gang {
+	height: 100vh;
+	width: 100vw;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	overflow-x: hidden;
+}
+.select {
+	opacity: 1;
+	transition: opacity .4s;
+	transition-delay: 0ms;
+	border-style: none;
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	text-align: center;
+	color: blue;
+	cursor: auto;
+	list-style: none;
+	margin-top:-550px;
+
+}
+#footer{
+	color: white;
+	padding: 37px;
+	background-color: rgb(37, 39, 37);
+	font-family: Agency FB;
+	font-size: 13px;
+	font-weight: 400;
+}

@@ -1,0 +1,193 @@
+nav {
+
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ol li {
+	list-style: none;
+}
+
+nav ol {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+nav ol li .bado {
+	font-weight: 500;
+}
+
+nav ol li a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #EDEDED;
+	line-height: 10px;
+	transition: all .2s ease-in-out;
+}
+
+nav ol li .bado:hover {
+	color:#EDEDED;
+}
+
+nav ol li a:hover {
+	color: #2176FF;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+
+.gang {
+	height: 80vh;
+	width: 100vw;
+	background: url('../images/projects.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+
+
+}
+h1{
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-size: 82px;
+	font-weight: 700;
+	line-height: 100px;
+	margin-top: 80px;
+}
+h3{
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-top: 15px;
+	letter-spacing: 2px;
+}
+button {
+	outline: 0;
+	border: 0;
+	background-color: #2176FF;
+	padding: 12px 30px;
+	border-radius: 50px;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	margin-top: 35px;
+	transition: all .3 ease-in-out;
+}
+.ap1 {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 140vh;
+	text-align:left;
+}
+.ap1Img {
+	width: 30px;
+	height: 16px;
+	margin-left: 50px;
+	margin-top: 30px;
+
+}
+.ap1 h2 {
+	font-size: 49px;
+	color: rgb(37, 41, 51);
+	margin-top: 100px;
+	margin-left: 50px;
+}
+.ap1 h3{
+	color: rgb(37, 41, 51);
+	font-family: 'Agency FB', arial;
+	margin-left: 50px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.ap2 {
+	background: url('../images/contact.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 140vh;
+	text-align: center;
+
+}
+.ap2Img{
+	height: 350px;
+	width: 500px;
+	margin-top: 150px;
+}
+.ap2 h1{
+	font-size: 70px;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	font-family: 'Agency FB', arial;
+
+}
+.ap2 h3{
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	font-family: 'Agency FB', arial;
+	font-weight: 400;
+
+}
+.button1{
+	outline: 0;
+	border: 0;
+	background-color: white;
+	padding: 15px 30px;
+	border-radius: 50px;
+	color: black;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 0;
+	line-height: 17px;
+	letter-spacing: 3px;
+	cursor: pointer;
+	margin-top: 30px;
+	transition: all .3 ease-in-out
+
+}
+#footer{
+	color: white;
+	padding: 37px;
+	background-color: rgb(37, 39, 37);
+	font-family: Agency FB;
+	font-size: 13px;
+	font-weight: 400;
+}
